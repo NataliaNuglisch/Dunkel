@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" />
+
+    <title>Dunkel</title>
+    <link rel="stylesheet" href="./style2.css" />
+</head>
+<body>
+
+    <div class="models">
+
+        <div class="burger-item">
+            <a href="">
+                <div class="burger-item--img"><img src="" /></div>
+                <div class="burger-item--add">+</div>
+            </a>
+            <div class="burger-item--price">R$ --</div>
+            <div class="burger-item--name">--</div>
+            <div class="burger-item--desc">--</div>
+        </div>
+
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+
+    <header>
+        <div class="menuHamb">
+            <input type="checkbox" id="chec" />
+            <label for="chec">
+              <img src="./imagens/menu.png" />
+            </label>
+            <nav>
+              <a href= ""></a>
+              <ul>
+                <li><a href="./LogCad/login.html">Fazer Login</a></li>
+                <li><a href="./LogCad/cadastro.html">Cadastrar-se</a></li>
+                <li><a href="#anterior">Visualizar pedidos anteriores</a></li>
+      
+              </ul>
+            </nav>    
+          </div>
+        <h1>Dunkel Burger</h1>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+
+    <main>
+        
+        <h2>Escolha seu(s) Hamburguer:</h2>
+
+        <div class="burger-area"></div>
+    </main>
+
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas burgers</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="burgerWindowArea">
+        <div class="burgerWindowBody">
+            <div class="burgerInfo--cancelMobileButton">Voltar</div>
+            <div class="burgerBig">
+                <img src="" />
+            </div>
+            <div class="burgerInfo">
+                <h1>--</h1>
+                <div class="burgerInfo--desc">--</div>
+                <div class="burgerInfo--sizearea">
+                    <div class="burgerInfo--sector">Adicional</div>
+                    <div class="burgerInfo--sizes">
+                        <div data-key="Picles" class="burgerInfo--size"> <span>--</span></div>
+                        <div data-key="Chaeder" class="burgerInfo--size"> <span>--</span></div>
+                        <div data-key="Bacon" class="burgerInfo--size selected"> <span>--</span></div>
+                    </div>
+                </div>
+                <div class="burgerInfo--pricearea">
+                    <div class="burgerInfo--sector">Preço</div>
+                    <div class="burgerInfo--price">
+                        <div class="burgerInfo--actualPrice">R$ --</div>
+                        <div class="burgerInfo--qtarea">
+                            <button class="burgerInfo--qtmenos">-</button>
+                            <div class="burgerInfo--qt">1</div>
+                            <button class="burgerInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="burgerInfo--addButton">Adicionar ao carrinho</div>
+                <div class="burgerInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="burgers.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
